@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/milrato",
+      "domain": "https://stuff-master.me"
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/stuff-master.me/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/stuff-master.me/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/stuff-master.me/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "https://stuff-master.me/callback",
+        "clientID": "877909939010560000",
+        "secret": "tnBC12CXrhM_-QOXDlIVTP-dG2Z1n9zc"
+    }
+  }
